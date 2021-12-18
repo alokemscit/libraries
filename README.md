@@ -3,7 +3,9 @@ Image Crop- Image Circle- Signature Pad
    
 **********************for crop image------*****************
 
-Add  in Manifest : <activity android:name="com.aloke.libraries.cropper.CropImageActivity"/>
+Add  in Manifest :
+<activity android:name="com.aloke.libraries.cropper.CropImageActivity"/>
+
 Call Crop Activity:
                     CropImage.activity()
                     .setGuidelines( CropImageView.Guidelines.ON)
